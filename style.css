@@ -1,0 +1,128 @@
+body{
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    background: #F3F5FC;
+}
+
+header{
+    width: 100px;
+    height: 100px;
+}
+
+main{
+    width: 500px;
+    height: 200px;
+    
+}
+
+main textarea{
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 50%;
+    margin-top: 50px;
+    border: none;
+    background: #F3F5FC;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+main textarea:focus{
+    outline: none;
+}
+
+aside{
+    position: absolute;
+    width: 335px;
+    height: 700px;
+    left: 1000px;
+    top: 40px;
+    border-radius: 32px;
+    background: #FFFFFF;    
+}
+
+aside textarea{
+    padding: 0 0 20px;
+    height: 300px;
+    width: 320px;
+    position: relative;
+    top: 125px;
+    left: 8px;
+    border: none;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    text-align: center;
+    font-size: xx-large;
+}
+
+aside textarea:focus{
+    outline: none;
+}
+
+aside h5{
+    position: relative;
+    top: 160px;
+    text-align: center;
+}
+
+aside button{
+    position: relative;
+    top: 180px;
+    left: 70px;
+    background: #D8DFE8;
+    color: #0A3871;
+    width: 200px;
+    height: 50px;
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+aside button:hover{
+    cursor: pointer;
+    background: #afb3b9;
+}
+
+footer{
+    position: relative;
+    top: 250px;
+    left: 150px;
+}
+
+footer h3 img{
+    height: 11px;
+    width: 11px;
+    padding-right: 6px;
+}
+
+footer .btn-encriptar{
+    background: #0A3871;
+    color: #FFFFFF;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 20px;
+    
+}
+
+footer .btn-encriptar:hover{
+    cursor: pointer;
+    background: #08203d;
+}
+
+footer .boton-desencriptar{
+    background: #D8DFE8;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 20px;
+    
+}
+
+footer .boton-desencriptar:hover{
+    cursor: pointer;
+    background: #afb3b9;
+}
